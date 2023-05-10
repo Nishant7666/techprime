@@ -1,0 +1,59 @@
+.countbox
+{
+    box-shadow: 2px 0px 10px 0px gray;
+    border-radius: 5px;
+    background-color: azure;
+    margin: 10px;
+    overflow-x: auto;
+    position: relative;
+    border: solid rgb(230, 226, 226);
+    box-shadow: -12px 0px 5px 0px rgb(79, 170, 212);
+}
+.dash-box
+{
+    padding: 5px;
+}
+.bar-graph
+{
+    height: 83vh;
+    position: relative;
+}
+.boxes
+{
+    border-radius: 5px;
+    height: 100px;
+    color: rgb(28, 77, 150);
+    font-size: 20px;
+    padding: 10px;
+}
+.count
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 100px) and (max-width: 569px) {
+    .dash-box
+    {
+        display: flexbox;
+        overflow: auto;
+        display: flex;
+        height: 220px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 5px;
+        
+    }
+    .boxes
+    {
+        height: 100%;
+    }
+    .countbox
+    {
+        width: 50%;
+        height: 150px;
+        
+    }
+}

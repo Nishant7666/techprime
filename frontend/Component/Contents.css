@@ -1,0 +1,167 @@
+
+*
+{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.styledsidebar
+{
+    width: 5%;
+    height: 100vh;
+    margin: 2px;
+}
+.logo
+{
+    background-image: url("./images/Logo.svg");
+    background-repeat: no-repeat;
+    width: 86px;
+    padding: 5px;
+}
+.logo-div
+{
+    padding: 7px;
+}
+.logout-logo
+{
+    margin-top:160%;
+}
+.fun-nav
+{
+    margin-top: 300%;
+}
+.fa-box
+{
+    box-shadow: 0 0 10px 0 gray;
+}
+.navlinks
+{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.navlinks div img
+{
+    height: 90px;
+    width: 28px;
+  
+}
+
+.header-bg
+{
+    background-image: url("./images/Header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+.routes
+{
+    background-color: none;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 11px 0px rgba(128, 128, 128, 0.719); */
+    margin: 10px;
+}
+ 
+h5
+{
+    width: 10%;
+    color: rgb(243, 235, 235);
+    font-size: 28px;
+    padding-left: 20px;
+    position: absolute;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) 
+{
+    .text-area
+    {
+        width: 100%;
+        margin: 1px;
+    }
+}
+
+@media (min-width:200px) and (max-width:600px) {
+    .styledsidebar
+    {
+        display: none;
+    }
+    h5
+    {
+        display: none;
+    }
+}
+
+@media (min-width:600px) and (max-width:2000px) {
+    .sub-menu,#page-board,#mobile-save
+    {
+        display: none;
+    }    
+    .active-link
+    {
+        color: blue;
+    }
+    .mobile-logout
+    {
+        display: none;
+    }
+}
+@media (min-width:200px) and (max-width:600px) {
+    .menu
+    {
+        position: fixed;   
+        border-radius: 10px;
+        margin: 5px;
+        bottom: 0;
+        width: 100%;
+        margin: 2px;
+        background-color: rgba(240, 248, 255, 0.274);
+        box-shadow: 0 0 5px 0px rgb(48, 140, 168);
+    }
+    .logo
+    {
+        display: none;
+    }
+    .sub-menu
+    {        
+        height: 50px;
+        border-radius: 20px;
+        margin: auto;
+        display: flex;
+    }
+    .save-project
+    {
+        display: none;
+    }
+    .text-here
+    {
+        width: 100%;
+        margin: 1px;
+    }
+    .small-tag
+    {
+        height: 28px;
+    }
+    #page-board
+    {
+        text-align: center;
+        color: white;
+        font-size:20px;
+    }
+    .mobile-logout
+    {
+        position: fixed;
+        right: 0;
+        margin: 10px;
+    }
+    
+}
+.pages
+{
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.164);
+}
+ 
+
+
+

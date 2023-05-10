@@ -1,0 +1,38 @@
+.bar-chart
+{
+    width: 60%;
+    margin: 10px;
+    border-radius: 10px;
+    
+   
+    box-shadow: 0 0 11px 0 gray;
+    background-color: white;
+}
+@media (min-width: 1000px) and (max-width:2000px) 
+{
+    .bar-chart
+    {
+        position: absolute;
+        width: 50%;
+        height: 400px;
+        bottom: 0;
+    }
+}
+@media (min-width: 400px) and (max-width:1000px)
+{
+    .bar-chart
+    {
+        margin: 20px;
+        width: 90vw;
+        height: 400px;
+    }
+}
+@media (min-width: 200px) and (max-width:400px)
+{
+    .bar-chart
+    {
+        width: 100%;
+        height: 500px;
+        margin-bottom: 100px;
+    } 
+}

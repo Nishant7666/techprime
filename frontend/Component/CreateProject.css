@@ -1,0 +1,83 @@
+
+.text-here
+{
+    width: 55%;
+    margin-right: 90px;
+}
+.text-area
+{
+    display: flex;
+    justify-content: space-between;
+}
+button
+{
+    height: 40px;
+    padding: 7px;
+    border-radius: 20%;
+}
+ 
+.project-form
+{
+    height: 80vh;
+    padding: 20px;
+    background-color: white;
+    border: solid 1px rgba(128, 128, 128, 0.377);
+}
+.status-attribute
+{
+    float: right;
+}
+.status-div
+{
+    padding-top: 50px;
+}
+.fst-italic 
+{
+    font-size: 23px;
+    margin-left: 4px;
+    color: rgb(102, 145, 67);
+}
+.save-project
+{
+    background-color: rgba(26, 143, 238, 0.916);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+@media (min-width:200px) and (max-width:600px) 
+{
+    .mobile-submit
+    {
+        
+        margin: 5px;
+    }
+    #mobile-save
+    {
+        background-color: rgba(34, 114, 180, 0.856);
+        color: white;
+    }
+}
+
+#error
+{
+    padding-left: 10px;
+    color: rgb(177, 62, 62);
+    display: block;
+    font-size: 18px;
+    margin: 2px;
+    text-shadow:  10px  rgb(0, 17, 255);
+    height: 30px;
+}
+
+.input-control input:focus {
+     outline: 0;
+}
+
+.input-control.success input {
+    border-color: green;
+}
+
+.input-control.error input {
+    border-color: red;
+}
